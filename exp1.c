@@ -4,7 +4,7 @@
 
 void insertAtBeginning(int arr[], int *n, int element);
 void insertAtEnd(int arr[], int *n, int element);
-void insertAtPosition(int arr[], int *n, int element, int position);
+void insertAtPosition(int arr[], int *n, int element, int position); 
 void displayArray(int arr[], int n);
 
 int main()
@@ -86,8 +86,7 @@ void insertAtBeginning(int arr[], int *n, int element)
     }
     arr[0] = element;
 
-    
-    (*n)++;
+        (*n)++;
 }
 
 void insertAtEnd(int arr[], int *n, int element)
