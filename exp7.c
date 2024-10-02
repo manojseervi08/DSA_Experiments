@@ -18,7 +18,7 @@ int main() {
     towerOfHanoi(n, 'A', 'B', 'C');
     return 0;
 }
-=======
+
 #include <stdio.h>
 
 void towerOfHanoi(int n, char source, char auxiliary, char destination) {
