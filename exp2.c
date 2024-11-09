@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #define ROWS 2
-#define COLS 2
+#define COLS 2    
 
 int main() {
     int arr[ROWS][COLS] = { {1, 2}, {3, 4} };
